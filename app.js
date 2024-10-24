@@ -1,4 +1,4 @@
-document.getElementById('myInput').addEventListener('input', function() {
+document.getElementById('input').addEventListener('input', function() {
     const inputText = this.value; 
-    document.getElementById('myHeader').textContent = inputText; 
+    document.getElementById('h1').textContent = inputText; 
 });
